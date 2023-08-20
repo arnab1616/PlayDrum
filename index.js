@@ -51,5 +51,5 @@ function buttonAnimation(curr){
     var activeButton = document.querySelector("."+curr);
     activeButton.classList.add("pressed");
     setTimeout(function(){activeButton.classList.remove("pressed")
-},80);
+},100);
 }
